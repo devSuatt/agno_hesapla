@@ -118,7 +118,7 @@ list.addEventListener('click', function (e) {
         console.log(dersSayisi.value);
         console.log('AGNO = ' + agno);
 
-        list.innerHTML = `<h3> AGNO = ${parseFloat(agno, '100')} </h3>`;
+        list.innerHTML = `<h3> AGNO = ${parseFloat(agno, '100').toFixed(2)} </h3>`;
     }
     
 
