@@ -1,0 +1,3 @@
+*.min.js linguist-detectable=false
+*.min.css linguist-detectable=false
+*.min.* linguist-detectable=false
